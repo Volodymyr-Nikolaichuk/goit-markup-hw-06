@@ -58,12 +58,18 @@
 
           <!-- Filter -->
           <ul class="list filter">
-            <li class="item"><button type="button" class="button button-filter">All</button></li>
+            <li class="item">
+              <button type="button" class="button button-filter">All</button>
+            </li>
             <li class="item">
               <button type="button" class="button button-filter">Web Site</button>
             </li>
-            <li class="item"><button type="button" class="button button-filter">App</button></li>
-            <li class="item"><button type="button" class="button button-filter">Design</button></li>
+            <li class="item">
+              <button type="button" class="button button-filter">App</button>
+            </li>
+            <li class="item">
+              <button type="button" class="button button-filter">Design</button>
+            </li>
             <li class="item">
               <button type="button" class="button button-filter">Marketing</button>
             </li>
@@ -286,7 +292,7 @@
     </main>
 
     <footer class="footer">
-      <div class="container">
+      <div class="footer container">
         <div class="content">
           <a href="./index.html" class="logo logo-footer">
             <span class="web-logo">Web</span>Studio</a
@@ -298,37 +304,57 @@
         </div>
 
         <div class="footer-social">
-          <p class="body">Social media</p>
+          <h2 class="footer-title">Social media</h2>
           <ul class="list action">
             <li class="list-item icon">
               <a class="link-icon" href="">
                 <svg class="svg-icon">
-                  <use href="./img/symbol-defs.svg#icon-instagram"></use>
+                  <use href="./img/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
             <li class="list-item icon">
               <a class="link-icon" href="">
                 <svg class="svg-icon">
-                  <use href="./img/symbol-defs.svg#icon-twitter"></use>
+                  <use href="./img/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
             <li class="list-item icon">
               <a class="link-icon" href="">
                 <svg class="svg-icon">
-                  <use href="./img/symbol-defs.svg#icon-facebook"></use>
+                  <use href="./img/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
             <li class="list-item icon">
               <a class="link-icon" href="">
                 <svg class="svg-icon">
-                  <use href="./img/symbol-defs.svg#icon-linkedin"></use>
+                  <use href="./img/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
             </li>
           </ul>
+        </div>
+
+        <div class="subscriber">
+          <h2 class="footer-title">Subscribe</h2>
+          <form class="form-subscribe">
+            <input
+              class="form-input subscribe"
+              type="mail"
+              name="mail"
+              id="subscribe-mail"
+              required
+              placeholder="E-mail"
+            />
+            <button class="button form-button" type="submit">
+              Subscribe
+              <svg class="svg-subscribe" width="24" , height="24">
+                <use href="./img/icons.svg#icon-Frame-3-1"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
