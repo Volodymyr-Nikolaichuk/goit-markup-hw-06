@@ -289,12 +289,12 @@ h3 {
 }
 
 .modal {
-  position: absolute;
+  position: relative;
   top: 50%;
   left: 50%;
-
+  width: 408px;
   text-align: center;
-  padding: 24px;
+  padding: 72px 24px 24px 24px;
   background-color: #fcfcfc;
   justify-content: center;
   border-radius: 4px;
@@ -306,6 +306,9 @@ h3 {
 }
 
 .form-button-close {
+  position: absolute;
+  top: 24px;
+  right: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -812,12 +815,15 @@ h3 {
   background-color: var(--dark);
 }
 
-.footer.container {
+.footer .container {
   display: flex;
-  justify-content: space-between;
   align-items: start;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.footer .content {
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -865,12 +871,15 @@ h3 {
   background: var(--success);
 }
 
+.subscriber {
+  margin-left: auto;
+}
+
 .form-subscribe {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
-
 
 .form-input.subscribe {
   width: 264px;
